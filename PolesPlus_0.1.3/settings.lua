@@ -25,7 +25,7 @@ data:extend({
 	localised_name={"","Poles light intensity"},
 	localised_description={"","Light intensity of built-in electric pole lamps"},
     setting_type = "startup",
-    default_value = 0.7,
+    default_value = 1,
 	minimum_value = 0.1,
     maximum_value = 1,
     order = "ad"
@@ -36,7 +36,7 @@ data:extend({
     name = "poles-plus-small-reach",
 	localised_name={"","Small pole reach"},
 	localised_description={"","Max. distance between two poles, also equals to the side length of the supply area"},
-    default_value = 9,
+    default_value = 16,
 	minimum_value = 7.5,
     maximum_value = 64,
     order = "aba"
@@ -47,7 +47,7 @@ data:extend({
     name = "poles-plus-medium-reach",
 	localised_name={"","Medium pole reach"},
 	localised_description={"","Max. distance between two poles, also equals to the side length of the supply area"},
-    default_value = 15,
+    default_value = 32,
 	minimum_value = 9,
     maximum_value = 64,
     order = "abb"
@@ -58,7 +58,7 @@ data:extend({
     name = "poles-plus-big-reach",
 	localised_name={"","Big pole reach"},
 	localised_description={"","Max. distance between two poles"},
-    default_value = 42,
+    default_value = 64,
 	minimum_value = 30,
     maximum_value = 64,
     order = "abc"
@@ -69,7 +69,7 @@ data:extend({
     name = "poles-plus-sub-reach",
 	localised_name={"","Substation reach"},
 	localised_description={"","Max. distance between two substations, also equals to the side length of the supply area"},
-    default_value = 48,
+    default_value = 64,
 	minimum_value = 18,
     maximum_value = 64,
     order = "abd"
