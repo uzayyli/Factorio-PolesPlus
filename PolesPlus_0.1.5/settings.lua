@@ -5,7 +5,7 @@ data:extend({
     name = "poles-plus-small-reach",
 	localised_name={"","Small pole reach"},
 	localised_description={"","Max. distance between two poles, also equals to the side length of the supply area"},
-    default_value = 8,
+    default_value = 16,
 	minimum_value = 7.5,
     maximum_value = 64,
     order = "aba"
