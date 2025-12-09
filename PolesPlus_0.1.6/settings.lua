@@ -5,7 +5,7 @@ data:extend({
     name = "poles-plus-small-reach",
 	localised_name={"","Small pole reach"},
 	localised_description={"","Max. distance between two poles, also equals to the side length of the supply area"},
-    default_value = 16,
+    default_value = 8,
 	minimum_value = 7.5,
     maximum_value = 64,
     order = "aba"
@@ -93,5 +93,27 @@ data:extend({
 	localised_description={"","Should yellow underground belts have same distance as red ones?"},
     default_value = true,
     order = "aea"
+  },
+  {
+    type = "int-setting",
+    setting_type = "startup",
+    name = "roboport-logistics-radius",
+	localised_name={"","Roboport logistic radius"},
+	localised_description={"","Roboport logistic radius"},
+    default_value = 32,
+	minimum_value = 24,
+    maximum_value = 128,
+    order = "afa"
+  },
+  {
+    type = "int-setting",
+    setting_type = "startup",
+    name = "roboport-construction-radius",
+	localised_name={"","Roboport construction radius"},
+	localised_description={"","Roboport construction radius"},
+    default_value = 64,
+	minimum_value = 55,
+    maximum_value = 128,
+    order = "afb"
   },
 })

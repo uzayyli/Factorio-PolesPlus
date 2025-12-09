@@ -1,0 +1,11 @@
+{
+    "name": "PolesPlus",
+    "version": "0.1.6",
+    "title": "Poles Plus",
+    "author": "uzayli",
+    "contact": "",
+    "homepage": "",
+    "factorio_version": "2.0.7",
+    "dependencies": ["base >= 0.16"],
+    "description": "Electric poles have inbuilt lighting, longer wire reach and supply area. Underground pipes have longer reach. Yellow underground belts have the same reach as red ones. Roboports have bigger logistic range. All are configurable."
+}

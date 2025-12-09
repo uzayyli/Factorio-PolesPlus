@@ -29,3 +29,9 @@ if(lights_on) then p.light=light_params; end
 
 p=data.raw['pipe-to-ground']['pipe-to-ground'];
 p.fluid_box.pipe_connections[2].max_underground_distance=settings.startup["poles-plus-underground-length"].value;
+
+if(settings.startup["longer-yellow-underground-belt"].value) then data.raw['underground-belt']['underground-belt'].max_distance = data.raw['underground-belt']['fast-underground-belt'].max_distance; end
+
+p=data.raw['roboport']['roboport'];
+p.logistics_radius=settings.startup["roboport-logistics-radius"].value;
+p.construction_radius=settings.startup["roboport-construction-radius"].value;
