@@ -22,7 +22,7 @@
 | Poles light radius  | - | 16 |
 | Underground pipe reach  | 10 | 32 |
 | Underground belt reach  | 5 | 7 |
-| Roboport logistic range  | 55 | 64 (TODO) |
+| Roboport logistic range  | 25 | 32 (TODO) |
 
 Extract the folder `PolesPlus_0.1.x` into `C:\Users\[username]\Roaming\Factorio\mods` (or `%APPDATA%\Roaming\Factorio\mods`)
 
