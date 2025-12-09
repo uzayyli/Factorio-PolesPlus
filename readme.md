@@ -22,8 +22,9 @@
 | Poles light radius  | - | 16 |
 | Underground pipe reach  | 10 | 32 |
 | Underground belt reach  | 5 | 7 |
-| Roboport logistic range  | 25 | 32 (TODO) |
+| Roboport logistic range  | 25 | 32 |
+| Roboport construction range  | 55 | 64 |
 
-Extract the folder `PolesPlus_0.1.x` into `C:\Users\[username]\Roaming\Factorio\mods` (or `%APPDATA%\Roaming\Factorio\mods`)
+Extract the folder `PolesPlus_0.1.6` into `C:\Users\[you]\Roaming\Factorio\mods` (or `%APPDATA%\Roaming\Factorio\mods`) so you have the file `C:\Users\[you]\AppData\Roaming\Factorio\mods\PolesPlus_0.1.6\info.json`
 
 Compatible with Factorio v2.0.7
